@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Data</title>
+</head>
+<body>
+    <h1>Stored User Data</h1>
+    <ul>
+        {% for user in users %}
+            <li>{{ user.name }} - {{ user.email }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
